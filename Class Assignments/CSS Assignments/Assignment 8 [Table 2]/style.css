@@ -1,0 +1,47 @@
+div{
+    border: 1px, solid, #d9d9da;
+    border-radius: 5px;
+    width: 50%;
+    height: 40%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.abc{
+    padding: 10px;
+    
+}
+
+.first{
+    background-color: #F2F2F2;
+}
+
+.first:hover{
+    background-color: rgb(185, 183, 183);
+}
+
+.second{
+    background-color: #fff;
+}
+
+.second:hover{
+    background-color: rgb(185, 183, 183);
+}
+
+.third{
+    background-color: #F2F2F2;
+}
+
+.third:hover{
+    background-color: rgb(185, 183, 183);
+}
+
+#mark:hover{
+    color: #fff;
+}

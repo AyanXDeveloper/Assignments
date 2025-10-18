@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ******************************** */
+/* --------------------- */
+
+/* HEADER START */
+
+/* --------------------- */
+/* ******************************** */
+
+.apple-logo{
+    width: 15px;
+}
+
+.header{
+    text-align: center !important;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-link{
+    color: black;
+    font-size: 13.5px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+body {
+  overflow-x: hidden;
+  position: relative;
+
+}
+
+@media (min-width: 0px) {
+  body {
+    overflow: scroll;
+  }
+}
+
+@media (min-width: 990px) {
+  .abc {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 990px) {
+  .def {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.nav-link{
+    color: black;
+    font-size: 13.5px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.logo-img {
+  width: 20px;
+}
+
+@media (max-width: 400px) {
+  
+
+  .navbar-toggler {
+    margin-top: 15px;
+  }
+
+
+  .container-fluid {
+    justify-content: unset;
+  }
+
+  .nav-car-img {
+    width: 23.5px;
+
+  }
+}
+
+@media (min-width: 999px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+@media (min-width: 400px) {
+  .nav-car-img {
+    margin-top: 20px;
+  }
+}
+
+
+.btn {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 30px;
+  margin-bottom: 250px;
+}
+
+@media (max-width:1000px) {
+  .btn {
+    margin-bottom: 80px;
+  }
+}
+
+.user-img {
+  margin-right: 45px;
+  margin-top: 10px;
+}
+
+@media (max-width: 500px) {
+  .user-img {
+    display: none;
+  }
+}
