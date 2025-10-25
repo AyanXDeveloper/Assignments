@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 7</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <center>
+        <h1
+          style="
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+              sans-serif;
+          "
+        >
+          <u style="color: #6b5cce">STUDENT REGISTRATION FORM</u>
+        </h1>
+        <br />
+        <table
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+          "
+        >
+          <tr align="left">
+            <th><label for="first name">FIRST NAME</label></th>
+            <td height="38" width="30%">
+              <input type="text" name="first name" id="first name" />
+            </td>
+            <td>(max 30 characters a-z and A-Z)</td>
+          </tr>
+          <tr align="left">
+            <th><label for="last name">LAST NAME</label></th>
+            <td height="60">
+              <input type="text" name="last name" id="last name" />
+            </td>
+            <td>(max 30 characters a-z and A-Z)</td>
+          </tr>
+          <tr align="left">
+            <th height="40">
+              <label for="date of birth">DATE OF BIRTH</label>
+            </th>
+            <td>
+              <select name="date" id="date">
+                <option value="">Day:</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+              </select>
+              <select name="month:" id="month:">
+                <option value="">Month:</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+              </select>
+              <select name="year:" id="year:">
+                <option value="">Year:</option>
+                <option value="">2025</option>
+                <option value="">2024</option>
+                <option value="">2023</option>
+                <option value="">2022</option>
+                <option value="">2021</option>
+                <option value="">2020</option>
+                <option value="">2019</option>
+                <option value="">2018</option>
+                <option value="">2017</option>
+                <option value="">2016</option>
+              </select>
+            </td>
+          </tr>
+          <tr align="left">
+            <th><label for="email id">EMAIL ID</label></th>
+            <td height="60">
+              <input type="text" name="email id" id="email id" />
+            </td>
+          </tr>
+          <tr align="left">
+            <th><label for="mobile number">MOBILE NUMBER</label></th>
+            <td height="40">
+              <input
+                maxlength="10"
+                type="number"
+                name="mobile number"
+                id="mobile number"
+              />
+            </td>
+            <td>(10 digit number)</td>
+          </tr>
+          <tr align="left">
+            <th><label for="gender">GENDER</label></th>
+            <td height="55">
+              <input type="radio" name="male" id="male" />Male
+              <input type="radio" name="female" id="female" />Female
+            </td>
+          </tr>
+          <tr align="left">
+            <th height=""><label for="address">ADDRESS</label></th>
+            <td>
+              <textarea name="" id="" cols="20" rows="5"></textarea>
+            </td>
+          </tr>
+          <tr align="left">
+            <th><label for="city">CITY</label></th>
+            <td height="60" width="30%">
+              <input type="text" name="city" id="city" />
+            </td>
+            <td>(max 30 characters a-z and A-Z)</td>
+          </tr>
+          <tr align="left">
+            <th><label for="pin code">PIN CODE</label></th>
+            <td height="30">
+              <input
+                maxlength="6"
+                type="number"
+                name="pin code"
+                id="pin code"
+              />
+            </td>
+            <td>(6 digit number)</td>
+          </tr>
+          <tr align="left">
+            <th><label for="state">STATE</label></th>
+            <td height="60" width="30%">
+              <input max="30" type="text" name="state" id="state" />
+            </td>
+            <td>(max 30 characters a-z and A-Z)</td>
+          </tr>
+          <tr align="left">
+            <th><label for="country">COUNTRY</label></th>
+            <td height="0" width="30%">
+              <input max="30" type="text" name="country" id="country" />
+            </td>
+          </tr>
+          <tr align="left">
+            <th><label for="hobbies">HOBBIES</label></th>
+            <td>
+              <input type="checkbox" name="drawing" id="drawing" />Drawing
+              <input type="checkbox" name="singing" id="singing" />Singing
+              <br />
+              <input type="checkbox" name="singing" id="singing" />Dancing
+              <input type="checkbox" name="singing" id="singing" />Sketching
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="checkbox" name="others" id="others" />Others</td>
+            <td><input type="text" name="other" id="other" /></td>
+          </tr>
+            <table
+            style="
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            "
+            >
+            <tr>
+              <td></td>
+        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QUALIFICATION:</th>
+        <td>
+          <table class="qualification">
+            <tr>
+              <th>Sl.No.</th>
+              <th>Examination</th>
+              <th>Board</th>
+              <th>Percentage</th>
+              <th>Year of Passing</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Class X</td>
+              <td><input type="text" maxlength="10"></td>
+              <td><input type="text" maxlength="5"></td>
+              <td><input type="text" maxlength="4"></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Class XII</td>
+              <td><input type="text" maxlength="10"></td>
+              <td><input type="text" maxlength="5"></td>
+              <td><input type="text" maxlength="4"></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Graduation</td>
+              <td><input type="text" maxlength="10"></td>
+              <td><input type="text" maxlength="5"></td>
+              <td><input type="text" maxlength="4"></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Masters</td>
+              <td><input type="text" maxlength="10"></td>
+              <td><input type="text" maxlength="5"></td>
+              <td><input type="text" maxlength="4"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>COURSES APPLIED FOR:</td>
+        <td>
+          <input type="radio" name="course"> BCA
+          <input type="radio" name="course"> B.Com
+          <input type="radio" name="course"> B.Sc
+          <input type="radio" name="course"> B.A
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2" class="buttons">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </td>
+      </tr>
+          </table>
+        </table>
+      </center>
+    </form>
+  </body>
+</html>

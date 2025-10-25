@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen;
+  background: #fff;
+  color: #1d1d1f;
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(250, 250, 250, 0.98);
+  padding: 10px 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-items {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  padding: 8px 12px;
+  transition: color 0.2s ease;
+}
+
+.nav-items li a:hover {
+  color: #0071e3;
+}
+
+.apple-logo {
+  width: 18px;
+}
+
+
+.hero-iphone16 {
+  background-color: #000;
+  color: #f5f5f7;
+  background-image: url('./assets/hero_iphone_family__fuz5j2v5xx6y_large.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+.hero-content {
+  max-width: 800px;
+}
+.hero-title {
+  font-size: 56px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #000;
+}
+.hero-subtitle {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  color: #ccc;
+}
+.hero-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.link-btn {
+  font-size: 21px;
+  color: #2997ff;
+  text-decoration: none;
+  font-weight: 400;
+  transition: opacity 0.2s;
+}
+.link-btn:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .hero-title { font-size: 40px; }
+  .hero-subtitle { font-size: 22px; }
+  .link-btn { font-size: 18px; }
+}
