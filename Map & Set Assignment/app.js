@@ -82,4 +82,4 @@ console.log(myMap.size)
 // Clear Method
 myMap.clear()
 console.log("After Clearing the Whole Map")
-console.log(myMap)
+console.log(myMap) 
